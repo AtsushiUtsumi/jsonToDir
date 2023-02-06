@@ -1,0 +1,52 @@
+{
+    "name": "src",
+    "files": [
+        "オニオンアーキテクチャ.txt",
+        "main.py",
+        ".gitignore"
+    ],
+    "directories": [
+        {
+            "name": "presentation",
+            "files": ["ViewとViewModel.txt"],
+            "directories": []
+        },
+        {
+            "name": "infrastructure",
+            "files": ["DBアクセス実装.txt"],
+            "directories": []
+        },
+        {
+            "name": "application",
+            "files": [],
+            "directories": []
+        },
+        {
+            "name": "domain",
+            "files": [],
+            "directories": [
+                {
+                    "name": "models",
+                    "files": [],
+                    "directories": [
+                        {
+                            "name": "user",
+                            "files": ["user.ts","userId.ts","userName.ts","iUserRepository.ts"],
+                            "directories": []
+                        },
+                        {
+                            "name": "product",
+                            "files": ["product.ts","productId.ts","productName.ts","iProductRepository.ts"],
+                            "directories": []
+                        }
+                    ]
+                },
+                {
+                    "name": "services",
+                    "files": [],
+                    "directories": []
+                }
+            ]
+        }
+    ]
+}
